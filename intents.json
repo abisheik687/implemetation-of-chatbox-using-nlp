@@ -25,10 +25,51 @@
             "Take care"
         ],
         "responses": [
-            "Goodbye",
-            "See you later",
-            "Take care"
+            "Strep throat is treated with antibiotics prescribed by a doctor. It's important to finish the entire course of antibiotics."
         ]
+    },
+    {
+        "tag": "allergies",
+        "patterns": [
+            "What are allergy symptoms?",
+            "How to treat allergies?",
+            "I have allergies",
+            "Symptoms of allergic reaction",
+            "Allergy relief"
+        ],
+        "responses": [
+            "Allergy symptoms can include sneezing, itching, runny nose, watery eyes, and rashes. They are caused by an immune response to allergens like pollen, dust mites, or pet dander.",
+            "Allergies can be managed with antihistamines, decongestants, nasal sprays, or allergy shots. Avoiding allergens is also key."
+        ]
+    },
+    {
+        "tag": "migraine",
+        "patterns": [
+            "What are the symptoms of a migraine?",
+            "How to treat a migraine?",
+            "I have a bad headache, could it be a migraine?",
+            "Symptoms of migraine headache",
+            "Migraine relief"
+        ],
+        "responses": [
+            "Migraine symptoms often include severe headache, usually on one side of the head, pulsating pain, sensitivity to light and sound, nausea, and vomiting. Some people experience auras before a migraine.",
+            "Migraines can be treated with pain relievers, triptans, or preventative medications. Rest in a dark, quiet room can also help."
+        ]
+    },
+    {
+        "tag": "headache",
+        "patterns": [
+            "I have a headache",
+            "How to get rid of a headache?",
+            "What causes headaches?",
+            "Headache remedies"
+        ],
+        "responses": [
+            "Headaches can have various causes, including tension, stress, dehydration, or lack of sleep. Common types include tension headaches and cluster headaches.",
+            "Headaches can often be relieved with rest, hydration, over-the-counter pain relievers, or relaxation techniques. If headaches are severe or persistent, consult a doctor."
+        ]
+    }
+]
     },
     {
         "tag": "thanks",
@@ -39,10 +80,52 @@
             "I appreciate it"
         ],
         "responses": [
-            "You're welcome",
-            "No problem",
-            "Glad I could help"
+            "Headaches can often be relieved with rest, hydration, over-the-counter pain relievers, or relaxation techniques. If headaches are severe or persistent, consult a doctor."
         ]
+    },
+    {
+        "tag": "upset_stomach_indigestion",
+        "patterns": [
+            "I have an upset stomach",
+            "What to do for indigestion?",
+            "Stomach ache remedies",
+            "Feeling nauseous",
+            "Heartburn symptoms"
+        ],
+        "responses": [
+            "Upset stomach or indigestion can be caused by overeating, eating too fast, fatty foods, or stress. Symptoms include nausea, bloating, heartburn, and discomfort.",
+            "For relief, try eating smaller meals, avoiding trigger foods, drinking ginger tea, or using over-the-counter antacids. If symptoms persist or are severe, consult a doctor."
+        ]
+    },
+    {
+        "tag": "minor_cuts_scrapes",
+        "patterns": [
+            "How to treat a cut?",
+            "Best way to clean a scrape",
+            "First aid for minor wounds",
+            "I have a small cut",
+            "Dealing with scrapes"
+        ],
+        "responses": [
+            "For minor cuts and scrapes, first clean the wound gently with soap and water. Apply an antiseptic and cover with a clean bandage to prevent infection.",
+            "Keep the wound clean and change the bandage daily. Watch for signs of infection like increased redness, swelling, or pus. Seek medical attention for deep cuts or wounds that won't stop bleeding."
+        ]
+    },
+    {
+        "tag": "sunburn",
+        "patterns": [
+            "How to treat sunburn?",
+            "Best remedies for sunburn",
+            "My skin is red from the sun",
+            "Dealing with a bad sunburn",
+            "Sunburn relief"
+        ],
+        "responses": [
+            "Sunburn is skin damage caused by UV radiation. Symptoms include redness, pain, swelling, and sometimes blisters.",
+            "To treat sunburn, cool the skin with a damp cloth or cool bath, apply aloe vera or moisturizer, and drink plenty of water. Avoid further sun exposure while healing. For severe sunburn or blistering, seek medical advice."
+        ]
+    }
+]
     },
     {
         "tag": "about",
@@ -3346,5 +3429,47 @@
             "Timeless relics are ancient artifacts and objects that hold historical and cultural significance, preserving the stories of our ancestors.",
             "Archaeologists and historians continue to unearth relics that shed light on human history and civilization."
         ]
-    } 
-] 
+    },
+    {
+        "tag": "common_cold",
+        "patterns": [
+            "What are the symptoms of a cold?",
+            "How to cure a cold?",
+            "I have a cold",
+            "Symptoms of common cold",
+            "Remedies for cold"
+        ],
+        "responses": [
+            "Symptoms of the common cold include a runny nose, sore throat, cough, congestion, slight body aches, and sneezing. It's a viral infection.",
+            "There is no cure for the common cold, but you can relieve symptoms with rest, fluids, and over-the-counter medications like pain relievers and decongestants."
+        ]
+    },
+    {
+        "tag": "influenza_flu",
+        "patterns": [
+            "What are the symptoms of the flu?",
+            "How to treat the flu?",
+            "I think I have the flu",
+            "Symptoms of influenza",
+            "Flu remedies"
+        ],
+        "responses": [
+            "Symptoms of the flu include fever or feeling feverish/chills, cough, sore throat, runny or stuffy nose, muscle or body aches, headaches, and fatigue. The flu is a respiratory illness caused by viruses.",
+            "Treatment for the flu includes rest, fluids, and antiviral medications prescribed by a doctor. The flu vaccine is recommended for prevention."
+        ]
+    },
+    {
+        "tag": "strep_throat",
+        "patterns": [
+            "What are the symptoms of strep throat?",
+            "How to cure strep throat?",
+            "I have a sore throat, could it be strep?",
+            "Symptoms of streptococcal pharyngitis",
+            "Treatment for strep throat"
+        ],
+        "responses": [
+            "Symptoms of strep throat often include a sudden sore throat, pain when swallowing, fever, red and swollen tonsils, sometimes with white patches or streaks of pus, and tiny red spots on the roof of the mouth. It's a bacterial infection.",
+            "Strep throat is treated with antibiotics prescribed by a doctor. It's important to finish the entire course of antibiotics."
+        ]
+    }
+]
